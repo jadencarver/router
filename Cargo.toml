@@ -10,5 +10,5 @@ documentation = "http://ironframework.io/doc/router/index.html"
 keywords = ["iron", "web", "http", "routing", "router"]
 
 [dependencies]
-route-recognizer = "0.1"
+route-recognizer = { version = "0.1", git = "https://github.com/jadencarver/route-recognizer.rs.git" }
 iron = ">=0.2, <0.4"
